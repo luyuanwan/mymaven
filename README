@@ -1,0 +1,19 @@
+本项目的目的是编写属于自己的项目构建方案,感受一下底层的乐趣和大型项目的经验(重构和软件架构)
+
+主要的编写思路:
+1、主函数中解析命令行参数
+
+
+useage: mymaven -h 185
+
+
+
+sh mymaven.sh ->
+1、编写脚本apprun.sh,执行mvn clean package -Dmaven.test.skip=true,upload.sh
+4、执行java程序,远程执行相关命令
+
+
+
+第一步,知道如何在执行mvn clean的时候脚本是如何知道我的当前目录的
+savedir=`pwd`
+echo $savedir

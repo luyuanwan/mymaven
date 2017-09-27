@@ -1,0 +1,76 @@
+# pyc
+*.pyc
+
+# Compiled Object files
+*.lo
+*.o
+
+# Java
+*.class
+
+# Compiled Dynamic libraries
+*.so
+
+# Compiled Static libraries
+*.la
+*.a
+
+# Compiled misc
+*.dep
+*.gcda
+*.gcno
+*.gcov
+
+# Packages
+*.tar.gz
+*.tar.bz2
+
+# Logs
+*.log
+
+# Temporary
+*.swp
+*.~
+*.project
+*.cproject
+
+# Core and executable
+core*
+nutcracker
+
+# extracted yaml
+# 以叹号"!"表示不忽略匹配到的文件或者目录
+!/contrib/yaml-0.1.4.tar.gz
+
+# Autotools
+.deps
+.libs
+
+# 以斜杠"/"开头表示目录
+# 比如/.idea/过滤整个文件夹
+/aclocal.m4
+/autom4te.cache
+/stamp-h1
+/autoscan.log
+/libtool
+
+/config/config.guess
+/config/config.sub
+/config/depcomp
+/config/install-sh
+/config/ltmain.sh
+/config/missing
+/config
+
+/config.h
+/config.h.in
+/config.h.in~
+/config.log
+/config.status
+/config.scan
+/configure
+
+Makefile
+Makefile.in
+
+target/
